@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+   
+}
+.bg{
+    background-image: url(./assets/hope_bg.jpg);
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    
+    display: flex;
+    gap: 12em;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.logo{
+    width: 160px;
+    height: 50px ;
+    margin-top: 1em;
+    
+}
+
+.browse{
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 1em;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: white
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.play{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 225, 75);
+    cursor: pointer;
+   
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(255, 225, 75);
+    align-items: center;
+    width: 270px;
+    
+    padding: 30px
+
+    
+
+}
+.view{
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    padding: 12px;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.matter{
+    background-color: white;
+    align-items: center;
+    width: 400px;
+    margin-top: 30px;
+    padding: 30px;
+   
+    
+}
+
+
+.learn{
+    margin-top: 15px;
+    border: none;
+    padding: 12px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(255, 225, 75);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line{
+    font-weight: 500;
+    color: rgba(187, 187, 187, 0.288);
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+    gap: 30px;
+    width: 700px;
+
+}
+.list{
+    font-size: 12px;
+    
+
+
+}
+b{
+    font-family: 'Poppins', sans-serif; 
+}
+
+.more{
+    text-decoration: underline;
+    color:  rgb(255, 225, 75);
+    font-family: 'Poppins', sans-serif; 
+
+}
