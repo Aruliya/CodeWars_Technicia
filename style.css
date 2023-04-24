@@ -124,6 +124,15 @@ main{
     font-weight: 500;
     color: rgba(187, 187, 187, 0.288);
 }
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+
+}
 .desc{
     display: flex;
     align-items: center;
